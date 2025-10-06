@@ -36,6 +36,11 @@ Generate tailored cover letters from job descriptions with your resume using an 
 - `src/options.html|css|js`: API key/model/base URL + resume storage
 - `PRIVACY.md`: draft privacy policy for listing
 
+## License
+This project is licensed for personal, non-commercial use only. See [LICENSE](LICENSE) for details.
+
+**Important**: This extension may NOT be published to Chrome Web Store or any other browser extension marketplace. It is intended for personal use only.
+
 ## Publishing
 1. Generate icons:
    - Install Pillow: `python3 -m pip install pillow`
