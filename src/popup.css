@@ -1,0 +1,29 @@
+body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; color: #0b1324; background: linear-gradient(180deg, #f8fafc, #f1f5f9); }
+.container { width: 380px; padding: 12px; }
+.appbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.appbar h1 { font-size: 18px; margin: 0; letter-spacing: 0.2px; }
+.icon-btn { background: #0f172a; color: #ffffff; border: 0; border-radius: 10px; padding: 6px 8px; cursor: pointer; }
+.icon-btn:hover { filter: brightness(1.1); }
+.card { background: #ffffff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 12px; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06); margin-bottom: 10px; }
+.row { display: flex; gap: 8px; align-items: center; margin: 8px 0; }
+.row.end { justify-content: flex-end; }
+textarea { width: 100%; box-sizing: border-box; padding: 12px; border: 1px solid #e5e7eb; border-radius: 10px; resize: vertical; line-height: 1.5; background: #f8fafc; }
+button { padding: 10px 12px; border: 0; border-radius: 10px; cursor: pointer; font-weight: 600; }
+button.primary { background: #2563eb; color: #ffffff; }
+button.primary:hover { background: #1e40af; }
+button.secondary { background: #0f172a; color: #ffffff; }
+button.secondary:hover { filter: brightness(1.1); }
+label { display: block; font-size: 12px; color: #334155; margin: 6px 0 6px; font-weight: 700; text-transform: none; }
+.status { font-size: 12px; color: #334155; min-height: 16px; margin-top: 6px; text-align: right; }
+
+@media (prefers-color-scheme: dark) {
+  body { background: linear-gradient(180deg, #0b1020, #0f172a); color: #e5e7eb; }
+  .card { background: #0b1020; border-color: #1e293b; box-shadow: 0 2px 10px rgba(0,0,0,0.35); }
+  textarea { background: #0f172a; color: #e5e7eb; border-color: #334155; }
+  label { color: #cbd5e1; }
+  .status { color: #cbd5e1; }
+  button.primary { background: #3b82f6; }
+  button.secondary { background: #111827; }
+}
+
+
